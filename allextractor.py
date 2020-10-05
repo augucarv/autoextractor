@@ -31,7 +31,7 @@ def allextractor(exdir,fitsdir,filterlist):
     import pandas as pd
     from allmatch import allmatch
     import subprocess
-    ################### Source detection/extraction step #########################
+    #################### Source detection/extraction step #########################
 
     extractor_dir = exdir # Folder with source-extractor main instances
     fits_dir = fitsdir # Folder with all .fits files to have sources extracted from
